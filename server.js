@@ -40,7 +40,7 @@ const corsOptions = {
             'http://localhost:5173',           // Vite dev server
             'http://localhost:3000',           // Common React dev port
             'http://localhost:5000',           // Same port (if needed)
-            process.env.FRONTEND_URL,          // Your production frontend URL
+            'https://neon-dolphin-94852c.netlify.app/',          // Your production frontend URL
         ].filter(Boolean); // Remove undefined values
         
         if (allowedOrigins.includes(origin) || origin.endsWith('.replit.dev') || origin.endsWith('.replit.app')) {
